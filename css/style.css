@@ -1,0 +1,220 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'PT Serif','Playfair Display', Tahoma,sans-serif;
+}
+a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', Tahoma, sans-serif;
+}
+hr {
+    max-width: 1000px;
+    border-color: #e6e6e6;
+    border-width: 1px;
+}
+.navbar-default {
+	margin-top: 40px;
+    font-family: Tahoma, sans-serif;
+    background: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.navbar-default .navbar-brand {
+	padding-top: 8px;
+    font: bold 26px 'Source Sans Pro';
+    color: #000;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #96c218;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 14px;
+	letter-spacing: 2px;
+    color: #000;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #96c218;
+}
+
+header {
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-content {
+    width: 100%;
+    padding: 20px 15px;
+    text-align: center;
+}
+.header-content h1 {
+	font: bold 75px Tahoma, sans-serif;
+}
+.header-content a {
+	padding: 17px 30px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	letter-spacing: 2px;
+    color: #000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.header-content p {
+	padding-top: 20px;
+	font: 24px 'Playfair Display';
+}
+.header-content .comment {
+	padding-top: 30px;
+}
+.header-content .comment .name {
+	font: bold 16px 'PT Serif';
+	display: block;
+	padding-top: 10px;
+}
+.header-content .comment .serv {
+	font: 13px Tahoma;
+	
+}
+section h2{
+	padding-top: 85px;
+	font-size: 55px;
+}
+section span {
+	display: block;
+	padding-top: 30px;
+	font: 18px 'PT Serif';
+	color: #666666;
+}
+section .sender {
+	padding-top: 40px;
+}
+section .sender i {
+	font-size: 60px;
+	text-align: center;
+}
+section .sender span {
+	font: bold 16px 'PT Serif';
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+section .sender p {
+	font: italic 16px 'PT Serif';
+	text-align: center;
+	padding-bottom: 85px;
+}
+section .sender img {
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 0.5s ease;
+}
+section .sender img:hover {
+	opacity: 0.7;
+}
+section .rates {
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+section .rates h3 {
+	padding-bottom: 30px;
+}
+section .btn-default {
+	padding: 17px 80px;
+	margin-top: 50px;
+	margin-bottom: 75px;
+	font-size: 16px;
+	letter-spacing: 2px;
+    color: #fff;
+	background: #96c218;
+	border-color: #96c218;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+section .btn-default:hover {
+	background: #a4d31c;
+	color: #fff;
+	border-color:#a4d31c;
+}
+footer {
+	background: #2d2d2d;
+	padding: 50px;
+	color: #fff;
+}
+footer .brand {
+	font: bold 26px 'Source Sans Pro';
+	color: #fff;
+}
+footer h4 {
+	font: 16px Tahoma;
+	text-transform: uppercase;
+}
+footer .brand:hover {
+	color: #c7c7c7;
+}
+footer .soc-link {
+	padding-top: 15px;
+}
+footer .soc-link a i{
+	border: 2px solid #fff;
+	width: 40px;
+	padding: 10px;
+	font-size: 16px;
+	margin-right: 8px;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.soc-link a i:hover {
+	border-radius: 50%;
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+footer a {
+	color: #fff;
+	font: 14px 'PT Serif';
+}
+footer a:hover {
+	text-decoration: none;
+	color: #7a7a7a;
+}
+footer ul li {
+	list-style-type: none;
+	margin-left: -38px;
+}
